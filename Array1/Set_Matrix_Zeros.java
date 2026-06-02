@@ -1,0 +1,49 @@
+package Array1;
+
+import java.util.*;
+
+public class Set_Matrix_Zeros {
+
+    public static void main(String args[]) {
+        int col0 = 1;
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int m = sc.nextInt();
+        int matrix[][] = new int[n][m];
+
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < m; j++) {
+                if (matrix[i][j] == 0) {
+                    matrix[i][0] = 0;
+
+                    if (j != 0)
+                        matrix[0][j] = 0;
+                    else
+                        col0 = 0;
+                }
+            }
+        }
+
+        for (int i = 1; i < n; i++) {
+            for (int j = 1; j < m; j++) {
+                if (matrix[i][j] != 0) {
+                    if (matrix[0][j] == 0 || matrix[i][0] == 0) {
+                        matrix[i][j] = 0;
+                    }
+                }
+            }
+        }
+
+        if (matrix[0][0] == 0) {
+            for (int j = 0; j < m; j++)
+                matrix[0][j] = 0;
+        }
+
+        if (col0 == 0) {
+            for (int i = 0; i < n; i++) {
+                matrix[i][0] = 0;
+            }
+        }
+        
+    }
+}
