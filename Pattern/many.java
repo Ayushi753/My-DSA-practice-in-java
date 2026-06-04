@@ -20,7 +20,7 @@ public class many {
             System.out.println();
         }
 
-        // for 1number vpattern
+        // for 1number v upperhalfpattern
         for (int i = 1; i <= n; i++) {
             // increasing numbers
             for (int j = 1; j <= i; j++) {
