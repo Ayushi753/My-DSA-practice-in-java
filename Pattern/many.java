@@ -8,7 +8,7 @@ public class many {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        // for alternate pattern
+        // for alternate tri pattern
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 if ((i + j) % 2 == 0) {
@@ -20,7 +20,7 @@ public class many {
             System.out.println();
         }
 
-        // for 1number v upperhalfpattern
+        // for 1number vpattern
         for (int i = 1; i <= n; i++) {
             // increasing numbers
             for (int j = 1; j <= i; j++) {
@@ -49,7 +49,6 @@ public class many {
                 System.out.print(num + " ");
                 num++;
             }
-
             System.out.println();
         }
     }

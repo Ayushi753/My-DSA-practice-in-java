@@ -70,7 +70,7 @@ public class Tribhuj {
         }
 
         /*
-         * " A
+         *"A
          * AB
          * ABC
          * ABCD
@@ -92,7 +92,7 @@ public class Tribhuj {
             }
             System.out.println();
         }
-
+          
         // 5
         for (int i = 1; i <= n; i++) {
             // spaces

@@ -1,6 +1,6 @@
 package Pattern;
 import java.util.*; 
-class Unique
+class Alternate
 {
     public static void main(String args[])
     {
