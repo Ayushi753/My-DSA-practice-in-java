@@ -6,7 +6,7 @@ public class Rainwater
     {
         int n= height.length;
 
-        // calculate left max-boundary
+        // calculate left max-boundary array
         int leftMax[]=new int[n];
         leftMax[0]=height[0];
         for(int i=1; i<n; i++)
@@ -14,7 +14,7 @@ public class Rainwater
             leftMax[i]=Math.max(height[i], leftMax[i-1]);
         }
 
-        // calculate right max-boundary
+        // calculate right max-boundary array
         int rightMax[]=new int[n];
         rightMax[n-1]=height[n-1];
         for(int i=n-2; i>=0; i--)
