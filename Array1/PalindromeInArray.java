@@ -1,3 +1,4 @@
+package Array1;
 import java.util.*;
 class PalindromeInArray
 {
@@ -5,10 +6,10 @@ class PalindromeInArray
     {
         Scanner sc=new Scanner(System.in);
         
-        int a[]=new int[5];    //declare the size5
+        int a[]=new int[7];    //declare the size5
         for (int x=0 ;x<a.length ;x++)
         {
-         System.out.println("Enter any 5 number");
+         System.out.println("Enter any 7 number");
             a[x]=sc.nextInt();
         {
          // Read the number 
