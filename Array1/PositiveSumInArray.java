@@ -21,8 +21,6 @@ public class PositiveSumInArray
         {
            sum=sum+a[x] ;
         }
-        
-    
             System.out.println("sum ="+sum);
         
     }
