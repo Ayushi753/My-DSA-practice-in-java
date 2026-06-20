@@ -7,7 +7,7 @@ public class PositiveSumInArray
     Scanner sc=new Scanner(System.in);
     int a[]=new int [5];  //declare the size5
      
-    //Read the data given in code.
+    //Read the data given in code
     System.out.println("Enter any 5 number");
     for(int x=0; x<5; x++)
     {
