@@ -1,6 +1,8 @@
 import java.util.*;
 
 public class Sorting {
+
+    //Bubble Sort
     public static void bubbleSort(int arr[]) {
         for (int turn = 0; turn < arr.length; turn++) {
             for (int j = 0; j < arr.length - 1; j++) {
@@ -13,6 +15,7 @@ public class Sorting {
         }
     }
 
+    //Insertion Sort
     public static void insertionSort(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
             int curr = arr[i]; // current element
@@ -26,6 +29,7 @@ public class Sorting {
         }
     }
 
+    //Selection Sort
     public static void selectionSort(int arr[]) {
         for (int i = 0; i < arr.length - 1; i++) {
             int minPos = i;
@@ -42,6 +46,7 @@ public class Sorting {
         }
     }
 
+    // Counting Sort
     public static void countingsort(int arr[]) 
     {
         int largest = Integer.MIN_VALUE;
@@ -63,7 +68,8 @@ public class Sorting {
             }
         }
     }
-
+    
+    //Print
     public static void printArr(int arr[]) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
