@@ -1,7 +1,5 @@
 package TwoDArray;
-
 import java.util.*;
-
 public class SpiralMatrix 
 {
     // Spiral Matrix
@@ -56,7 +54,7 @@ public class SpiralMatrix
     }
 
 
-
+    //Main function
     public static void main(String args[]) 
     {
         int matrix[][] = { { 1, 2, 3, 4 },
