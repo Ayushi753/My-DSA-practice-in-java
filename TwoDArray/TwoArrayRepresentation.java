@@ -2,7 +2,7 @@ package  TwoDArray;
 import java.util.*;
 public class TwoArrayRepresentation {
     // Search Function
-    public static boolean search(int matrix[][], int key) {
+    public static boolean search(int matrix[][], int key) {  
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[0].length; j++) {
                 if (matrix[i][j] == key) {
@@ -12,12 +12,12 @@ public class TwoArrayRepresentation {
             }
         }
 
-        System.out.println("Key is not found");
+        System.out.println("Key is not found in this zone");
         return false;
     }
 
     
-    // Main function and aslo represting 2D Arrar
+    // Main function and aslo representing 2D Arrar
     public static void main(String args[]) {
         int matrix[][] = new int[3][3];
         Scanner sc = new Scanner(System.in);
