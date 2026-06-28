@@ -2,6 +2,7 @@ package Array1;
 import java.util.*;
 class PalindromeInArray
 {
+   //main function
     public static void main(String args[])
     {
         Scanner sc=new Scanner(System.in);
@@ -9,7 +10,7 @@ class PalindromeInArray
         int a[]=new int[7];    //declare the size5
         for (int x=0 ;x<a.length ;x++)
         {
-         System.out.println("Enter any 7 number");
+         System.out.println("Enter any 7 number");   // enter total 7 number in a line
             a[x]=sc.nextInt();
         {
          // Read the number 
