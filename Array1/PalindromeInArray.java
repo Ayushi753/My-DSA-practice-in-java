@@ -12,7 +12,7 @@ class PalindromeInArray
         {
          System.out.println("Enter any 7 number");   // enter total 7 number in a line
             a[x]=sc.nextInt();
-        {
+         {
          // Read the number 
          for (int x=0; x<a.length; x++)
          {
@@ -26,7 +26,7 @@ class PalindromeInArray
             c=c*10+a;
             n=n/10;
          }
-        
+
          if (c==p)
          {
             flag=1;
@@ -35,10 +35,6 @@ class PalindromeInArray
          if (flag==0)
             System.out.println(c+"is palindrome");
         }
-
         }
-      
     }
-
-    
 }
