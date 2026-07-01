@@ -1,5 +1,5 @@
 import java.util.*;
-
+ // All important sorting is present in this.
 public class Sorting {
 
     //Bubble Sort
@@ -76,7 +76,8 @@ public class Sorting {
         }
         System.out.println();
     }
-
+    
+    //Main function
     public static void main(String args[]) {
         int arr[] = { 5, 4, 1, 2, 3 };
         bubbleSort(arr);
